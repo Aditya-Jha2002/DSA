@@ -4,7 +4,16 @@
 # Date - 2 October, 2021
 
 
-# Approach 1 (Brute Force Approach) - Space : O(n), Time : O(n)
+# _____________________________________________________________________________________
+
+# Solution :-
+
+
+# Approach 1 (Brute Force Approach)
+#   - Space : O(n)
+#   - Time : O(n)
+
+
 class Solution:
     def reverseArray(self, nums: list) -> list:
         arr = []
@@ -13,10 +22,14 @@ class Solution:
         return arr
 
 
-# Approach 2 (Swaping inside the array) - Space : O(1), Time : O(n)
+# Approach 2 (Swaping inside the array)
+#   - Space : O(1)
+#   - Time : O(n)
+
+
 class Solution1:
     def reverseArray(self, nums: list) -> list:
         size = len(nums)
-        for i in range((size//2) + 1):
-            nums[i], nums[size-i-1] = nums[size-i-1], nums[i]
+        for i in range((size // 2) + 1):
+            nums[i], nums[size - i - 1] = nums[size - i - 1], nums[i]
         return nums

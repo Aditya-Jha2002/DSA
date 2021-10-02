@@ -4,7 +4,16 @@
 # Date - 2 October, 2021
 
 
-# Approach 1 (Looping through the array) - Space : O(n), Time : O(1)
+# _____________________________________________________________________________________
+
+# Solution :-
+
+
+# Approach 1 (Looping through the array)
+#   - Space : O(1)
+#   - Time : O(n)
+
+
 class Solution:
     def maxMinArray(self, nums: list) -> tuple:
         max = nums[0]
