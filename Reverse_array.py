@@ -13,7 +13,7 @@ class Solution:
         return arr
 
 
-# Approach 1 (Brute Force Approach) - Space : O(1), Time : O(n)
+# Approach 2 (Swaping inside the array) - Space : O(1), Time : O(n)
 class Solution1:
     def reverseArray(self, nums: list) -> list:
         size = len(nums)
